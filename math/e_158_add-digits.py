@@ -21,6 +21,8 @@ def addDigits_efficient(num: int) -> int:
     return 1 + ((num - 1) % 9)
 
 
+# Testing
+
 result = addDigits_basic(1236)
 print(result)
 result = addDigits_efficient(1239)
